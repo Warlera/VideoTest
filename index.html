@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" href="">
+</head>
+<body>
+<main>
+    <div class="video">
+        <div class="video_block">
+            <video height="600" src="test.mp4" id="video-player"
+             playsinline autoplay !muted  loop>
+            </video>
+        </div>
+    </div>
+    <div class="buttons">
+        <div><button id="play">play</button></div>
+        <div><button id="stop">stop</button></div>
+        <div><button id="pause">pause</button></div>
+        <div><button id="normal">normal</button></div>
+        <div><button id="muted">muted</button></div>
+        <div><input type="range" id="volume" min=0 max=100 value="10">volume</div>
+    </div>
+    <div class="progress_block">
+        <progress id="progress" max="100" value="0"></progress>
+    </div>
+
+</main>
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.video {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+}
+.video_block {
+    max-height: 200px;
+}
+.buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 10px;
+}
+.progress_block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+progress {
+    width: 100%;
+    margin: 0 20px;
+    min-height: 50px;
+}
